@@ -1,0 +1,140 @@
+body {
+    background-color: #ffff;
+    padding-top: 50px;
+
+}
+
+.container-no-padding {
+    margin-bottom: 50px;
+}
+
+.category {
+    background-color: #8B0000;
+    color: #ffff;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    position: absolute;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.mediumStory {
+    border-top: 3px solid #8B0000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mediumStory img {
+    aspect-ratio: 16/9;
+    margin-bottom: 5px;
+}
+
+.mediumStory .category {
+    right: 0;
+}
+
+.mediumStory .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.mediumStory .body {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.author {
+    text-transform: uppercase;
+}
+
+.mediumStory .author {
+    font-size: 13px;
+}
+
+.mediumStory .date {
+    font-size: 13px;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.horizStory {
+    border-top: 3px solid #8B0000;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.horizStory .content {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.horizStory .title {
+    margin-bottom: 10px;
+}
+
+.horizStory .imageSection {
+    display: flex;
+    max-width: 25%;
+}
+
+.horizStory .category {
+    right: 0;
+    top: 0;
+}
+
+.largeStory {
+    display: flex;
+    flex-direction: column;
+}
+
+.largeStory .category {
+    top: -24px;
+    left: 0;
+}
+
+.largeStory .contentDiv {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 75px;
+    background-image: url("../images/wide/bigstory.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.largeStory .content {
+    position: relative;
+    background-color: #ffff;
+    padding: 15px;
+}
+
+.largeStory .title {
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.largeStory .body {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.largeStory .author {
+    font-size: 14px;
+}
+
+.largeStory .date {
+    font-size: 14px;
+}

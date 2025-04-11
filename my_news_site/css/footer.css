@@ -1,0 +1,21 @@
+#footer {
+    border-top: 1px solid #cbcbcb;
+}
+
+#credit {
+    color: #747474;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+#credit a {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#credit img {
+    max-width: 25px;
+}

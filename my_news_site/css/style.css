@@ -1,0 +1,71 @@
+body {
+    background-color: #ffff;
+}
+
+.category {
+    background-color: #8B0000;
+    color: #ffff;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    position: absolute;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.story-block {
+    margin-bottom: 50px;
+}
+
+.story-block+.story-block {
+    border-top: 4px dotted #a3a3a3;
+}
+
+.container {
+    position: relative;
+}
+
+.actions {
+    padding: 0px;
+    display: none;
+    gap: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.action-btn {
+    padding: 5px 15px;
+    background-color: #dbdbdb;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.action-btn:hover {
+    background-color: #bcbcbc;
+    cursor: pointer;
+}
+
+.story-delete {
+    margin-block-end: 0;
+}
+
+#delete-btn {
+    background-color: #de3030;
+    color: #ffffff;
+}
+
+#delete-btn:hover {
+    background-color: #a82020;
+}
+
+.cat-head {
+    text-decoration: underline;
+    text-decoration-color: #8b0000;
+}

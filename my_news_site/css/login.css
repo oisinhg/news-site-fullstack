@@ -1,0 +1,29 @@
+body {
+    background-color: #e7e6e6;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.error {
+    color: red;
+    margin-bottom: 15px;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-content {
+    border: 1px solid #a1a1a1;
+    padding: 15px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}

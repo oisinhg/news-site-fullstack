@@ -1,0 +1,53 @@
+.horizStory {
+    border-top: 3px solid #8B0000;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.horizStory .content {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.horizStory .title {
+    margin-bottom: 10px;
+}
+
+.horizStory .imageSection {
+    display: flex;
+    min-width: 25%;
+    max-width: 25%;
+}
+
+.horizStory img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.horizStory .category {
+    right: 0;
+    top: 0;
+}
+
+.horizStory .author {
+    font-size: 14px;
+}
+
+.horizStory:hover {
+    cursor: pointer;
+}
+
+.horizStory:hover .title {
+    text-decoration: underline;
+}
+
+.horizStory:hover img {
+    opacity: 85%;
+}

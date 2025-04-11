@@ -1,0 +1,52 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    overflow: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    overflow: auto;
+}
+
+tr:hover {
+    background-color: #f0f8ff;
+}
+
+.table-container {
+    max-width: 98%;
+    padding: 1%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+#headline {
+    color: #116bbb;
+}
+
+#headline:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    cursor: pointer;
+}

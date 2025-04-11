@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+}
+
+#actions {
+    padding: 0px;
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.action-btn {
+    padding: 5px 15px;
+    background-color: #dbdbdb;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.action-btn:hover {
+    background-color: #bcbcbc;
+    cursor: pointer;
+}
+
+.story-delete {
+    margin-block-end: 0;
+}
+
+#delete-btn {
+    background-color: #de3030;
+    color: #ffffff;
+}
+
+#delete-btn:hover {
+    background-color: #a82020;
+}

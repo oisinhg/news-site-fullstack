@@ -1,0 +1,84 @@
+#navbar {
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #cbcbcb;
+    background-color: #ffffff;
+    z-index: 1;
+    padding: 15px 0px;
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navbar li {
+    font-family: "Space Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navbar li:hover {
+    text-decoration: underline;
+}
+
+#dropbtn {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: none;
+    /* display: inline-block; */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+    font-family: "Space Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+#toggle-edit {
+    border:none;
+    padding: 12px 16px;
+    background-color: #f9f9f9;
+    display: block;
+    font-family: "Space Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+#toggle-edit:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.dropdown:hover #dropbtn {
+    text-decoration: underline;
+}
+
+.show {
+    display: block
+}
+
+#login-li {
+    display: none;
+}
